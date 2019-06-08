@@ -10,5 +10,12 @@
   ],
   "github": {
     "enabled": false
+  },
+  "env": {
+    "GITHUB_TOKEN": "@github_token",
+    "GITHUB_USERNAME": "@github_username",
+    "ACCESS_ALLOW_ORIGIN": "@access_allow_origin",
+    "MAX_REPOS": "@max_repos",
+    "CACHE_MAX_AGE": "@cache_max_age"
   }
 }
