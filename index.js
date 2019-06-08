@@ -25,7 +25,7 @@ const query = `
 				privacy: PUBLIC,
 				orderBy: {
 					field: CREATED_AT,
-					direction: DESC
+					direction: ASC
 				}
 			) {
 				nodes {
