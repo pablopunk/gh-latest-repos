@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "gh-latest-repos",
+  "alias": "repos.pablopunk.now.sh",
+  "builds": [
+    { "src": "index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/.*", "dest": "/index.js" }
+  ]
+}
