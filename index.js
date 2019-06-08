@@ -1,7 +1,6 @@
 'use strict';
 const graphqlGot = require('graphql-got');
 const controlAccess = require('control-access');
-require('dotenv').config()
 
 const token = process.env.GITHUB_TOKEN;
 const username = process.env.GITHUB_USERNAME;
