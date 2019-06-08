@@ -6,7 +6,7 @@
 	"scripts": {},
 	"dependencies": {
 		"control-access": "^0.1.1",
-		"etag": "^1.8.1",
+		"dotenv": "^8.0.0",
 		"graphql-got": "^0.1.2"
 	},
 	"devDependencies": {}
